@@ -1,17 +1,24 @@
 .filter-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto;
+    gap: 0px; /* 이 값을 조절해서 간격조절 가능 */
+    align-items: center;
     width: 500px;
-    justify-content: space-between;
     border: 1px solid;
-    padding: 10px;
 }
 .plus-option {
     background-color: transparent;
     border: none;
+    height: 60px;
+    padding-top: 10px;
 }
 .filter-button {
-    border-radius: 15px;
-    border-color: #B6DFE1;
+    background-color: transparent;
+    border: none;
+    height: 60px;
+}
+.filter-button {
+    margin-left: 25px;
 }
 table {
     border: 1px solid #444;
@@ -19,9 +26,6 @@ table {
 }
 th {
     border: 1px solid #444;
-}
-.filter-button:active {
-    background-color: #B6DFE1;
 }
 .no-border-button {
     border: none;
@@ -33,6 +37,7 @@ th {
 th, td {
     padding: 0;
     margin: 0;
+
 }
 .filter-checkbox {
     display: none;
@@ -77,8 +82,21 @@ th, td {
 }
 .subFilter:active {
     background-color: #FFEFC6;
-    border-radius: 20px;
+}
+.subFilter {
+    border-right: #444 1px solid;
+    
 }
 body {
     font-family: Inter;
 }
+.space {
+    padding-left: 15px;
+    width: 200px;
+}
+
+.space1 {
+    padding-left: 10.5px;
+}
+
+
