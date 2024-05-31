@@ -1,5 +1,4 @@
 .modal-header {
-    height: 300px;
     align-items: start !important;
 }
 .modal-dialog {max-width: 600px !important;}
@@ -74,4 +73,16 @@
 .forth-con{
     padding: 0 40px;
 }
+/* 윤지가 한거 */
 
+.list-group-item {
+    position:relative;
+    padding-left:10px;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
+}
+.list-group-item i{
+    position: absolute;
+    top:0;
+    left:0;
+}
