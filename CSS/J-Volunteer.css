@@ -1,0 +1,69 @@
+.container {
+  max-width: 900px;
+  max-height: 900px;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 70px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 80px;
+  margin-right: 5px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  border-radius: 10px;
+  flex: 1;
+  margin-right: 5px;
+}
+
+.btn-primary {
+  background-color: #FDC456;
+  border-color: #FDC456;
+}
+
+.btn-primary:hover {
+  background-color: rgb(250, 177, 32);
+  border-color: rgb(250, 177, 32);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn_commit {
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+
+
+#birth::placeholder,
+#phone::placeholder,
+#email::placeholder {
+  color: rgb(201, 205, 211);
+  font-style: italic;
+}
+
+#name,#birth,#phone,#email,#content {
+  background-color: #f0f0f0;
+  border-radius: 0px;
+  border: 0;
+}
