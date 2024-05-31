@@ -1,0 +1,46 @@
+.Top-Banner{
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    display: flex;
+  flex-wrap: wrap;
+  
+  }
+  .TB-text{
+    flex: 0.3 0.7 auto;
+  margin-top: 120px;
+  padding-left:auto;
+    }
+  .TB-image{
+    flex: 0 0 auto;
+  width: 60%; 
+  background-color: #1b6683;
+  overflow: hidden;
+  object-fit: cover;
+  margin-left: auto;
+  }
+  .TB-image{
+    border-radius: 10px;
+    background-image: url('/Image/M-AdoptImage.jpg'); /*배경 이미지 삽입 */
+  background-image: no-repeat; /*배경 이미지 반복 안 함 */
+  background-size: 100% 100%;
+  margin-bottom: 50px;
+  }
+  
+
+  /* 후기 남기러 가기 버튼 */
+  .TB-text-btn{
+    border: 0;       /* 버튼 기본값 초기화 */
+    outline: 0;     /* 버튼 기본값 초기화 */
+
+    width: 200px;       /* 버튼 스타일 지정 */
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FDC456;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .TB-text-btn:hover{background-color: #ffaa00;}
+  .TB-text-btn:active{background-color: #ffaa00;}
