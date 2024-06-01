@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+.img-wrap{
+    height:300px;
+    overflow: hidden;
+    border-radius: 0 0 20px 20px;
+}
+img{
+    width:100%;
+}
+
+.size {
+    width: 300px;
+    border: solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+ 
+.gender{
+    display: flex;
+    align-items: center;
+} 
+
+.gender-color{
+    color: #f58080;
+}
+
+.text{
+    padding:20px;
+}
+
+.name{
+    font-weight:800;
+    padding-bottom:20px;
+}

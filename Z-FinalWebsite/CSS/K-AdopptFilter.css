@@ -1,0 +1,130 @@
+.filter-container {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 3fr;
+    align-items: center;
+    border: 1px solid #333;
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.plus-option {
+    
+    height: 50px;
+    padding-top: 10px;
+    border: 0;
+  background-color: transparent;
+  border-right: 1px solid #333;
+}
+.filter-button {
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 100%;
+}
+table {
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #444;
+    border-left: 1px solid #444;
+    width: 90%;
+    margin: 0 auto;
+}
+.no-border-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.filter-checkbox {
+    display: none;
+}
+.filter-label {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #FFF;
+    border-color: #B6DFE1;
+}
+.space td {
+    padding: 5px 0;
+}
+.checkbox-spacing {
+    margin-right: 5px;
+}
+.icon-toggle {
+    transition: transform 0.7s ease;
+}
+.icon-toggle.rotate {
+    transform: rotate(180deg);
+}
+/* 애니메이션을 위한 스타일 */
+#filter-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out;
+}
+#filter-details.visible {
+    max-height: 1000px; /* 충분히 큰 값으로 설정 */
+}
+.subFilter:active {
+    background-color: #FFEFC6;
+}
+.subFilter {
+    border-right: #444 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.space {
+    width: 100px;
+    line-height: 40px;
+}
+.Filter-height{
+    height: 40px;
+}
+th {
+    padding-left: 10px;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.toSpacing {
+    padding-top: 10px;
+}
+.btSpacing {
+    padding-bottom: 15px;
+}
+.search {
+    width: 80%;
+}
+.buttonStyle {
+    margin-right: 10px;
+}
+.search-container {
+    position: relative;
+    width: 98%;
+    margin: auto;
+  }
+  .search-container input[type="text"] {
+    padding: 10px 20px 10px 40px;
+    border-radius: 10px;
+  }
+.search_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+  }
