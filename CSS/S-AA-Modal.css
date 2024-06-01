@@ -1,0 +1,58 @@
+.Fisrt-con {
+    /* height: 300px;
+    margin: 30px auto;
+
+    align-items: start !important;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px; */
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+
+.img-wrap{
+    height: 354px;
+    width: 540px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.modal-dialog {max-width: 600px !important;}
+
+.Second-con{
+    display: flex;
+    padding: 20px 20px 0 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-text{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom:0.5rem !important;
+}
+
+.gender{
+    font-size: 25px;
+    color: #f58080;
+}
+
+
+.Third-con{
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.size {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
