@@ -3,8 +3,6 @@
 }
 .modal-dialog {max-width: 600px !important;}
 
-
-
 .container-Modal{
     width: 600px;
     border-radius: 10px;
@@ -24,7 +22,7 @@
     margin-right: 20px;
 }
 .card-text{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom:0 !important;
 }
@@ -78,19 +76,7 @@
 .forth-con{
     padding: 0 40px;
 }
-/* 윤지가 한거 */
 
-.list-group-item {
-    position:relative;
-    padding-left:10px;
-    padding-top:0 !important;
-    padding-bottom:0 !important;
-}
-.list-group-item i{
-    position: absolute;
-    top:3px;
-    left:-2px;
-}
 .modal-header {
     align-items: start !important;
 }
@@ -106,10 +92,17 @@
 .Adopt-con{
     display: flex;
     margin-bottom: 20px;
+    margin-bottom: 20px;
     flex-direction: row;
+    justify-content: center;
     justify-content: center;
 }
 .Adopt-btn{
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+.Adopt-btn1{
+    margin-right: 20px;
     padding-bottom: 15px;
     padding-right: 10px;
 }
@@ -120,9 +113,11 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom:0 !important;
+    margin-bottom:0 !important;
 }
 .gender{
     font-size: 25px;
+    padding: 0 10px;
     padding: 0 10px;
 }
  
@@ -146,7 +141,7 @@
 }
 
 .Second-con{
-    margin: 30px
+    margin: 30px;
 }
 .List-Title{
     width: 100px;
@@ -173,13 +168,12 @@
 }
 /* 윤지가 한거 */
 
-.list-group-item {
+.Modallist-group-item {
     position:relative;
-    padding-left:10px;
-    padding-top:0 !important;
-    padding-bottom:0 !important;
+    padding-left:17px;
+    
 }
-.list-group-item i{
+.ModalList-icon{
     position: absolute;
     top:3px;
     left:-2px;
