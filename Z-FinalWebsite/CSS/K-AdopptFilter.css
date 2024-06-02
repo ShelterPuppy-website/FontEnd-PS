@@ -21,12 +21,11 @@
     height: 50px;
     width: 100%;
 }
-table {
+.filter-Table {
     border-bottom: 1px solid #444;
     border-right: 1px solid #444;
     border-left: 1px solid #444;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
 }
 .no-border-button {
     border: none;
@@ -60,6 +59,8 @@ table {
 }
 /* 애니메이션을 위한 스타일 */
 #filter-details {
+    width: 90%;
+    margin: auto;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.7s ease-in-out;
@@ -85,8 +86,14 @@ table {
 .Filter-height{
     height: 40px;
 }
-th {
+.filter-th  {
     padding-left: 10px;
+}
+.filter-tagbtn{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .search-button {
