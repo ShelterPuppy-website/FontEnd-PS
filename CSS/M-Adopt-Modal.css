@@ -92,10 +92,17 @@
 .Adopt-con{
     display: flex;
     margin-bottom: 20px;
+    margin-bottom: 20px;
     flex-direction: row;
+    justify-content: center;
     justify-content: center;
 }
 .Adopt-btn{
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+.Adopt-btn1{
+    margin-right: 20px;
     padding-bottom: 15px;
     padding-right: 10px;
 }
@@ -106,9 +113,11 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom:0 !important;
+    margin-bottom:0 !important;
 }
 .gender{
     font-size: 25px;
+    padding: 0 10px;
     padding: 0 10px;
 }
  
@@ -132,7 +141,7 @@
 }
 
 .Second-con{
-    margin: 30px
+    margin: 30px;
 }
 .List-Title{
     width: 100px;
@@ -166,6 +175,6 @@
 }
 .ModalList-icon{
     position: absolute;
-    top:4px;
+    top:3px;
     left:-2px;
 }

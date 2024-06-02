@@ -24,7 +24,7 @@
     margin-right: 20px;
 }
 .card-text{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom:0 !important;
 }
@@ -36,7 +36,7 @@
 .TextCon-Age{
     display: flex;
     list-style: none;
-    padding: 5px 5px 10px 0;
+    padding: 0 5px 10px 5px;
     margin-bottom:0 !important;
 }
 
@@ -80,13 +80,14 @@
 }
 /* 윤지가 한거 */
 
-.Modallist-group-item {
+.list-group-item {
     position:relative;
-    padding-left:17px;
-    
+    padding-left:10px;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
 }
-.ModalList-icon{
+.list-group-item i{
     position: absolute;
-    top:4px;
+    top:3px;
     left:-2px;
 }

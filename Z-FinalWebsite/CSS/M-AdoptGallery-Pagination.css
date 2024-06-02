@@ -4,6 +4,16 @@
     background-color: #fff !important;
 }
 
+<<<<<<< HEAD
+=======
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: #cd5454;
+}
+
+
+>>>>>>> origin/dev
 /* pagination 부트스트랩 수정 */
 .pagination{
     margin: 20px auto !important;
