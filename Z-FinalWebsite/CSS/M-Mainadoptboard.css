@@ -1,0 +1,46 @@
+@import url('/css/reset.css');
+/* 입양 하기 박스 시작 */
+.card-text{
+    font-size: 20px;
+font-weight: 700;
+margin-bottom:0.5rem !important;
+}
+ 
+.TextCon-Age{
+    display: flex;
+    list-style: none;
+    padding: 0 5px 10px 0;
+    margin-bottom:0 !important;
+}
+
+.gender{
+    font-size: 17px;
+    padding-left: 3px;
+}
+
+li:nth-child(1){
+    color: #9B9B9B;
+    border-right: 1.5px solid #9B9B9B;
+    padding-right: 5px;
+    font-size: 14px !important;
+}
+li:nth-child(2){
+    color: #9B9B9B;
+    padding-left: 5px;
+    font-size: 14px !important;
+}
+
+.card-body-padding{padding: 10px !important;}
+
+/* 입양하기 박스 끝 */
+
+/* 입양 후기 박스 시작 */
+
+
+.Afteradopt-content{
+    font-size: 12px;
+    line-height: 15px;
+    color: #656565;
+}
+
+/* 입양 후기 박스 끝 */

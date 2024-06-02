@@ -1,15 +1,15 @@
 .filter-container {
-    width: 90%;
     display: grid;
     grid-template-columns: auto 1fr 1fr 3fr;
     align-items: center;
     border: 1px solid #333;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
     background-color: transparent;
 }
 .plus-option {
     
-    height: 60px;
+    height: 50px;
     padding-top: 10px;
     border: 0;
   background-color: transparent;
@@ -18,14 +18,14 @@
 .filter-button {
     background-color: transparent;
     border: none;
-    height: 60px;
+    height: 50px;
     width: 100%;
 }
 table {
     border-bottom: 1px solid #444;
     border-right: 1px solid #444;
     border-left: 1px solid #444;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 .no-border-button {

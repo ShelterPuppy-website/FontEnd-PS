@@ -1,0 +1,32 @@
+
+.navbar-design{
+    padding: 20px !important;
+    background-color: #fff !important;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: #cd5454;
+}
+
+
+/* pagination 부트스트랩 수정 */
+.pagination{
+    margin: 20px auto !important;
+}
+.nav-center{
+    margin: auto
+}
+.page-link{
+    color: #000 !important;
+}
+.page-link:hover{
+    color: #000 !important;
+}
+.pagination {
+    --bs-pagination-border-width: none !important;
+}
+.page-item{
+    border : none !important;
+}
