@@ -21,12 +21,15 @@
     height: 50px;
     width: 100%;
 }
-table {
+.hidden-filterContainer{
+    width: 90%;
+    margin: auto;
+}
+.hidden-filterTable {
     border-bottom: 1px solid #444;
     border-right: 1px solid #444;
     border-left: 1px solid #444;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
 }
 .no-border-button {
     border: none;
@@ -85,7 +88,7 @@ table {
 .Filter-height{
     height: 40px;
 }
-th {
+.hidden-filterth {
     padding-left: 10px;
 }
 
@@ -127,4 +130,11 @@ th {
     top: 50%;
     transform: translateY(-50%);
     left: 18px;
+  }
+
+.btn-Tag{
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-bottom: 3px;
   }

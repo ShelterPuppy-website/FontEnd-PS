@@ -3,8 +3,6 @@
 }
 .modal-dialog {max-width: 600px !important;}
 
-
-
 .container-Modal{
     width: 600px;
     border-radius: 10px;
@@ -24,7 +22,7 @@
     margin-right: 20px;
 }
 .card-text{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom:0 !important;
 }
@@ -78,19 +76,7 @@
 .forth-con{
     padding: 0 40px;
 }
-/* 윤지가 한거 */
 
-.list-group-item {
-    position:relative;
-    padding-left:10px;
-    padding-top:0 !important;
-    padding-bottom:0 !important;
-}
-.list-group-item i{
-    position: absolute;
-    top:3px;
-    left:-2px;
-}
 .modal-header {
     align-items: start !important;
 }
@@ -173,14 +159,13 @@
 }
 /* 윤지가 한거 */
 
-.list-group-item {
+.Modallist-group-item {
     position:relative;
-    padding-left:10px;
-    padding-top:0 !important;
-    padding-bottom:0 !important;
+    padding-left:17px;
+    
 }
-.list-group-item i{
+.ModalList-icon{
     position: absolute;
-    top:3px;
+    top:4px;
     left:-2px;
 }
