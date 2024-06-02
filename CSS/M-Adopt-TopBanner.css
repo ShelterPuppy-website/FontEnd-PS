@@ -1,7 +1,7 @@
 @import url('/css/reset.css');
 .Top-Banner{
+    width: 90%;
     margin: auto;
-    width: 70%;
     height: 400px;
     display: flex;
   flex-wrap: wrap;

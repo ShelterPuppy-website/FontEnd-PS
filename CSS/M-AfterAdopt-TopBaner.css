@@ -1,10 +1,14 @@
 .Top-Banner{
     margin: auto;
-    width: 70%;
+    width: 90%;
     height: 400px;
     display: flex;
   flex-wrap: wrap;
-  
+  }
+  .Top-Banner-Text{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
   }
   .TB-text{
     flex: 0.3 0.7 auto;

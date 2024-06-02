@@ -1,0 +1,44 @@
+@import url('/css/reset.css');
+.Top-Banner{
+  margin: auto;
+  width: 90%;
+  height: 400px;
+  display: flex;
+flex-wrap: wrap;
+}
+.Top-Banner-Text{
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.TB-text{
+  flex: 0.3 0.7 auto;
+margin-top: 120px;
+padding-left:auto;
+  }
+.TB-image{
+width: 60%; 
+margin-left: auto;
+border-radius: 10px;
+  background-image: url('/Image/M-AdoptImage.jpg'); /*배경 이미지 삽입 */
+background-size: 100% 100%;
+margin-bottom: 50px;
+}
+
+.TB-text-btn{
+  width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #FDC456;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Adopt-TB-AnimalCount{
+  font-weight: 900;
+  font-size: 20px;
+  padding: 5px;}
